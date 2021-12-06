@@ -33,7 +33,10 @@ class App extends React.Component{
             this.setState({repos:data})
         })
     }
-  
+    
+    home=()=>{
+        this.setState({user:"milancuckovic"})
+    }
     setSearch=(e)=>{
         this.setState({user:e.target.value})
     }
@@ -80,7 +83,7 @@ class App extends React.Component{
         return(
             <>
                 <nav className="navbar navbar-dark bg-dark justify-content-between">
-                    <a href="#" onClick='location.reload(true); return false;' className="navbar-brand">Home</a>
+                    <a href="#" onClick={home} className="navbar-brand">Home</a>
                     
                         <form action="" onSubmit={this.Search} className="form-inline">
                             <input type="search" className="form-control" placeholder="Users..." onChange={this.setSearch}></input>
