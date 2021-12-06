@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/zadMonTech2/static/js/main.fc2ec335.chunk.js",
-    "main.js.map": "/zadMonTech2/static/js/main.fc2ec335.chunk.js.map",
+    "main.js": "/zadMonTech2/static/js/main.1b08adc7.chunk.js",
+    "main.js.map": "/zadMonTech2/static/js/main.1b08adc7.chunk.js.map",
     "runtime-main.js": "/zadMonTech2/static/js/runtime-main.0c04bddf.js",
     "runtime-main.js.map": "/zadMonTech2/static/js/runtime-main.0c04bddf.js.map",
     "static/js/2.a51535fa.chunk.js": "/zadMonTech2/static/js/2.a51535fa.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.0c04bddf.js",
     "static/js/2.a51535fa.chunk.js",
-    "static/js/main.fc2ec335.chunk.js"
+    "static/js/main.1b08adc7.chunk.js"
   ]
 }
