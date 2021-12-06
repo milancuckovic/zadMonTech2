@@ -45,7 +45,6 @@ class App extends React.Component{
     }
     Search=(e)=>{
         e.preventDefault();
-        console.log(this.state.user)
         fetch(`https://api.github.com/users/${this.state.user}`)
         .then(res=>{return res.json();})
         .then(data=>{
@@ -83,7 +82,7 @@ class App extends React.Component{
         return(
             <>
                 <nav className="navbar navbar-dark bg-dark justify-content-between">
-                    <a href="#" onClick={this.home} className="navbar-brand">Home</a>
+                    <a href="" onClick={this.home} className="navbar-brand">Home</a>
                     
                         <form action="" onSubmit={this.Search} className="form-inline">
                             <input type="search" className="form-control" placeholder="Users..." onChange={this.setSearch}></input>
